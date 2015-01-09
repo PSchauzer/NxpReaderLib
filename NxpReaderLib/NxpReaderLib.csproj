@@ -39,14 +39,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AL\AL.cs" />
+    <Compile Include="AL\Applications\FelicCa.cs" />
+    <Compile Include="AL\Applications\I18000P3M3.cs" />
+    <Compile Include="AL\Applications\IcodeSli.cs" />
+    <Compile Include="AL\Applications\Iso15693.cs" />
+    <Compile Include="AL\Applications\MifareClassic.cs" />
+    <Compile Include="AL\Applications\MifareDesFire.cs" />
+    <Compile Include="AL\Applications\MifareUltralight.cs" />
+    <Compile Include="BAL\Bal.cs" />
     <Compile Include="Common\Components.cs" />
+    <Compile Include="HAL\Hal.cs" />
+    <Compile Include="PAL\Protocols\EpcUid.cs" />
+    <Compile Include="PAL\Protocols\FeliCa.cs" />
+    <Compile Include="PAL\Protocols\I14443P3A.cs" />
+    <Compile Include="PAL\Protocols\I14443P3B.cs" />
+    <Compile Include="PAL\Protocols\I14443P4.cs" />
+    <Compile Include="PAL\Protocols\I14443P4A.cs" />
+    <Compile Include="PAL\Protocols\I18000P3M3.cs" />
+    <Compile Include="PAL\Protocols\I18092P3MPI.cs" />
+    <Compile Include="PAL\Protocols\Mifare.cs" />
+    <Compile Include="PAL\Protocols\Sli15693.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="AL\" />
-    <Folder Include="BAL\" />
-    <Folder Include="HAL\" />
-    <Folder Include="PAL\" />
+    <Compile Include="PAL\Pal.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
